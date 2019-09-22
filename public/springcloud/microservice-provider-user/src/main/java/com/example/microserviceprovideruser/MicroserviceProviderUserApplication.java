@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 public class MicroserviceProviderUserApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(MicroserviceProviderUserApplication.class, args);
     }
