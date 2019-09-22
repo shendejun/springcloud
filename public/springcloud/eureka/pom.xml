@@ -32,7 +32,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <!--SpringCloud依赖版本管理-->
     <dependencyManagement>
         <dependencies>
