@@ -17,4 +17,7 @@ public class MicroserviceSimpleConsumerMoviceApplication {
         return new RestTemplate();
     }
 
+    //上面的restTemplate方法就相当于下面这行代码，实例化
+    //private RestTemplate restTemplate = new RestTemplate();
+
 }
