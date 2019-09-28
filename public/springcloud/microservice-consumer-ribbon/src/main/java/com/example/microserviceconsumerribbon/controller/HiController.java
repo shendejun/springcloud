@@ -1,5 +1,6 @@
 package com.example.microserviceconsumerribbon.controller;
 
+import com.example.microserviceconsumerribbon.feign.UserFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -12,6 +13,8 @@ public class HiController {
     private RestTemplate restTemplate;
     @Autowired
     private LoadBalancerClient loadBalancerClient;
+    @Autowired
+    UserFeignClient userFeignClient;
 
     @GetMapping("/myHi")
     public String myHi(){
@@ -19,5 +22,10 @@ public class HiController {
         String url = "http://"+serviceInstance.getHost()+":"+serviceInstance.getPort()+"/hi";
         System.out.println(url);
         return this.restTemplate.getForObject(url,String.class);
+    }
+
+    @GetMapping("/feign/myHi")
+    public String myHi2(){
+        return userFeignClient.sayHi();
     }
 }
