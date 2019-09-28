@@ -1,4 +1,4 @@
-package com.example.microserviceprovideruser;
+package com.example.microserviceprovideruser2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MicroserviceProviderUserApplicationTests {
+public class MicroserviceProviderUser2ApplicationTests {
 
     @Test
     public void contextLoads() {

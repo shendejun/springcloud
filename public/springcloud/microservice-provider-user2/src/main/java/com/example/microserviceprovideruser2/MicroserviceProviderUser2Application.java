@@ -1,4 +1,4 @@
-package com.example.microserviceprovideruser;
+package com.example.microserviceprovideruser2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,13 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableEurekaClient
 @SpringBootApplication
-public class MicroserviceProviderUserApplication {
+public class MicroserviceProviderUser2Application {
+
     public static void main(String[] args) {
-        SpringApplication.run(MicroserviceProviderUserApplication.class, args);
+        SpringApplication.run(MicroserviceProviderUser2Application.class, args);
     }
 
     @RequestMapping("/hi")
     public String sayHi(){
-        return "hi";
+        return "hi_2";
     }
+
 }
