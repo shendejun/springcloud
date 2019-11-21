@@ -31,11 +31,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!--开启密码访问 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
     </dependencies>
     <!--SpringCloud依赖版本管理-->
     <dependencyManagement>
