@@ -18,6 +18,7 @@ public class MicroserviceSimpleProviderUserApplication {
 
     @RequestMapping("/hi")
     public String sayHi(){
+        System.out.println("hi_2");
         return "hi_2";
     }
 
