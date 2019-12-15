@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 7901
+  port: 7902
 spring:
   application:
-    name: microservice-peovider-user
+    name: microservice-peovider-user2
