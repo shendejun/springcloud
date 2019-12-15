@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c8c28b8-e14d-4c7c-b076-c4448f672838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../12/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$笔记 11.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记 11.doc" beforeDir="false" afterPath="$PROJECT_DIR$/笔记 11.doc" afterDir="false" />
-    </list>
+    <list default="true" id="5c8c28b8-e14d-4c7c-b076-c4448f672838" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie/target/" />
@@ -379,15 +373,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575561806864</updated>
-      <workItem from="1575561812454" duration="12617000" />
+      <workItem from="1575561812454" duration="13249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12617000" />
+    <option name="totallyTimeSpent" value="13249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
