@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>com.itmuch.cloud</groupId>
-    <artifactId>microservice-consumer-movie-ribbon-properties-sustomizing</artifactId>
+    <artifactId>microservice-consumer-movie-ribbon-without-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice-consumer-movie-ribbon-properties-sustomizing</name>
+    <name>microservice-consumer-movie-ribbon-without-eureka</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

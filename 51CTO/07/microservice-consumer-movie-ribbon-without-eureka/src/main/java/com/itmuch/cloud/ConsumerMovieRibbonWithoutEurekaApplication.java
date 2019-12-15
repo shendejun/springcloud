@@ -9,9 +9,9 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class ConsumerMovieRibbonPropertiesSustomizingApplication {
+public class ConsumerMovieRibbonWithoutEurekaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerMovieRibbonPropertiesSustomizingApplication.class, args);
+        SpringApplication.run(ConsumerMovieRibbonWithoutEurekaApplication.class, args);
     }
 
     @Bean

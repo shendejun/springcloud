@@ -1,5 +1,5 @@
 server:
-  port: 8765
+  port: 8766
 spring:
   application:
     name: microservice-consumer-movie-ribbon
@@ -9,10 +9,14 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-microservice-peovider-user:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
 #feign:
 #  #熔断机制
 #  hystrix:
 #    enabled: true
+ribbon:
+  eureka:
+    enabled: false
+microservice-peovider-user:
+  ribbon:
+    listOfServers: localhost:7901 #这里只配置一个节点
