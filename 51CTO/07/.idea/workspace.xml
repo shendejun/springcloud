@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8c28b8-e14d-4c7c-b076-c4448f672838" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonPropertiesSustomizingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonWithoutEurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/test/java/com/itmuch/cloud/ConsumerMovieRibbonPropertiesSustomizingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/test/java/com/itmuch/cloud/ConsumerMovieRibbonWithoutEurekaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$笔记 11.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记 11.doc" beforeDir="false" afterPath="$PROJECT_DIR$/笔记 11.doc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
@@ -115,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="418">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -176,16 +173,11 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-consumer-movie-ribbon-without-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-148" />
     <option name="y" value="310" />
     <option name="width" value="1936" />
@@ -387,16 +379,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575561806864</updated>
-      <workItem from="1575561812454" duration="10684000" />
+      <workItem from="1575561812454" duration="12617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10684000" />
+    <option name="totallyTimeSpent" value="12617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -618,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="418">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>

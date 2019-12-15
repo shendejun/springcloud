@@ -1,0 +1,22 @@
+server:
+  port: 8766
+spring:
+  application:
+    name: microservice-consumer-movie-ribbon
+eureka:
+  client:
+    #registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+#feign:
+#  #熔断机制
+#  hystrix:
+#    enabled: true
+ribbon:
+  eureka:
+    enabled: false
+microservice-peovider-user:
+  ribbon:
+    listOfServers: localhost:7901 #这里只配置一个节点

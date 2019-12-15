@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../springboot/demo_17" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../java/Permissions" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../java/permissions" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-148" />
+    <option name="y" value="310" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.MicroserviceSimpleProviderUserApplication">
+    <configuration name="ConsumerMovieRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movice-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieRibbonPropertiesSustomizingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon-properties-sustomizing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonPropertiesSustomizingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieRibbonWithoutEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon-without-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonWithoutEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceSimpleConsumerMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceSimpleConsumerMovieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceSimpleProviderUser2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-provider-user2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceSimpleProviderUser2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceSimpleProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceSimpleProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
