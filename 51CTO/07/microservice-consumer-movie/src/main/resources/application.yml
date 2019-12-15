@@ -5,7 +5,6 @@ spring:
     name: microservice-consumer-movie
 eureka:
   client:
-    registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 #feign:
