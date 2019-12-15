@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c8c28b8-e14d-4c7c-b076-c4448f672838" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/src/main/java/com/itmuch/cloud/controller/MoviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/src/main/java/com/itmuch/cloud/controller/MoviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="5c8c28b8-e14d-4c7c-b076-c4448f672838" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie/target/" />
@@ -126,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/src/main/java/com/itmuch/cloud/controller/MoviceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="286">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -405,12 +401,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575561806864</updated>
-      <workItem from="1575561812454" duration="9312000" />
+      <workItem from="1575561812454" duration="9978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9312000" />
+    <option name="totallyTimeSpent" value="9978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -615,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/src/main/java/com/itmuch/cloud/controller/MoviceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="286">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
