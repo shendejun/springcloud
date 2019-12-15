@@ -19,5 +19,6 @@ public class ConsumerMovieRibbonApplication {
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
+    
 
 }
