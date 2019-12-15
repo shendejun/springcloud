@@ -16,10 +16,12 @@ public class MoviceController {
 
     @GetMapping("/myHi")
     public String myHi(){
+        //这里的负载均衡方式使用的是配置文件中的额 NFLoadBalancerRuleClassName
+        ServiceInstance serviceInstance = this.loadBalancerClient.choose("microservice-peovider-user");
+        System.out.println("user.NFLoadBalancerRuleClassName -> "+serviceInstance.getHost()+":"+serviceInstance.getPort()+":"+serviceInstance.getServiceId());
+        
         //VIP 虚拟ip
-        String url = "http://microservice-peovider-user/hi";
-        System.out.println(url);
-        return this.restTemplate.getForObject(url,String.class);
+        return this.restTemplate.getForObject("http://microservice-peovider-user/hi",String.class);
     }
 
     @GetMapping("/test")
