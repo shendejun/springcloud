@@ -19,7 +19,7 @@ public class MoviceController {
         //这里的负载均衡方式使用的是配置文件中的额 NFLoadBalancerRuleClassName
         ServiceInstance serviceInstance = this.loadBalancerClient.choose("microservice-peovider-user");
         System.out.println("user.NFLoadBalancerRuleClassName -> "+serviceInstance.getHost()+":"+serviceInstance.getPort()+":"+serviceInstance.getServiceId());
-        
+
         //VIP 虚拟ip
         return this.restTemplate.getForObject("http://microservice-peovider-user/hi",String.class);
     }
