@@ -8,9 +8,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-public class ConsumerMovieFeignApplication {
+public class ConsumerMovieFeignCustomizingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerMovieFeignApplication.class, args);
+        SpringApplication.run(ConsumerMovieFeignCustomizingApplication.class, args);
     }
 
 }

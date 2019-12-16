@@ -15,9 +15,4 @@ public class MovieController {
     public User findById(@PathVariable Long id){
         return this.userFeignClient.findById(id);
     }
-
-    @PostMapping("/user")
-    public User testPost(@RequestBody User user){
-        return this.userFeignClient.postUser(user);
-    }
 }
