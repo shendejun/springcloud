@@ -1,9 +1,7 @@
 package com.itmuch.cloud.controller;
 
 import com.itmuch.cloud.entity.User;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 用户
@@ -16,6 +14,12 @@ public class UserController {
         User user = new User();
         user.setId(id);
         user.setUsername("admin");
+        return user;
+    }
+
+    @PostMapping("/user")
+    public User postUser(@RequestBody User user){
+        user.setBalance(0);
         return user;
     }
 }
