@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -11,6 +10,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-sustomizing/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
       </list>
     </option>
   </component>

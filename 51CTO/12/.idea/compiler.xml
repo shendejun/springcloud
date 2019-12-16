@@ -6,25 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-consumer-movice-ribbon" />
-        <module name="microservice-provider-user" />
-        <module name="springcloud" />
         <module name="microservice-consumer-movice" />
+        <module name="microservice-consumer-movice (1)" />
+        <module name="microservice-consumer-movice-ribbon" />
         <module name="microservice-consumer-movie-ribbon-properties-sustomizing" />
-        <module name="microservice-provider-user2" />
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-provider-user2" />
+        <module name="springcloud" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="microservice-consumer-movice" options="-parameters" />
-      <module name="microservice-consumer-movice-ribbon" options="-parameters" />
-      <module name="microservice-consumer-movie-ribbon-properties-sustomizing" options="-parameters" />
-      <module name="microservice-consumer-movie-ribbon-without-eureka" options="-parameters" />
-      <module name="microservice-provider-user" options="-parameters" />
-      <module name="microservice-provider-user2" options="-parameters" />
-      <module name="springcloud" options="-parameters" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="microservice-consumer-movice" target="1.8" />
+      <module name="microservice-consumer-movice (1)" target="1.8" />
+      <module name="microservice-consumer-movice-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-properties-sustomizing" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-without-eureka" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user2" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
