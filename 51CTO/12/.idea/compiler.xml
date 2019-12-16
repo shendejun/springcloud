@@ -9,6 +9,7 @@
         <module name="microservice-consumer-movice" />
         <module name="microservice-consumer-movice (1)" />
         <module name="microservice-consumer-movice-ribbon" />
+        <module name="microservice-consumer-movie-feign-customizing" />
         <module name="microservice-consumer-movie-ribbon-properties-sustomizing" />
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
         <module name="microservice-provider-user" />
@@ -20,6 +21,7 @@
       <module name="microservice-consumer-movice" target="1.8" />
       <module name="microservice-consumer-movice (1)" target="1.8" />
       <module name="microservice-consumer-movice-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-properties-sustomizing" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-without-eureka" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
